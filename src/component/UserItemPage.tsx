@@ -7,7 +7,6 @@ import { useNavigate, useParams } from "react-router-dom";
 interface UserItemPageParams{
     id: string;
     [key: string]: string | undefined;
-
 }
 
 const UserItemPage:FC = () =>{
